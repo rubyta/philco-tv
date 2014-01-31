@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image:url(images/vintage_background.png);
+	background-position:inherit;	
+}
+nav {
+	
+}
+
+nav ul {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}	
+nav li {
+	float: left;
+	background-color: #669990;
+	
+}
+nav a{
+	display:block;
+	width:192px;
+	font-size:20px;
+	background-color: #669990;
+	text-align:center;
+	text-decoration:none;	
+}
+#nav li a:link{
+	color: #333;
+}
+#nav li a:visited{
+	color: #333;
+}
+#nav li a:hover{
+	color: #000;
+	background-color: #FFF;
+}
+#nav li a:active{
+	background-color: #FFF;
+	color: #F30;
+}
+nav li:hover ul {
+	left:auto;
+}
+nav li ul{
+	width: 360px;
+	position: absolute;
+	left: -9999px;
+	background:#CCCCC;
+	line-height: 25px;
+	border: 2.5px solid black;
+	box-shadow: 10px 10px #A9E0EE;
+	/* this positions stacking order */
+	z-index: 100;
+}
+
+#page1 header {
+	border: 1px solid red;
+	background-color: white;
+
+}
+
+#page1 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 2px solid green;
+	width: 960px;
+	height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 0 auto;
+	position:relative;
+	background-color: #f2edcb;
+	
+	
+	
+}
+#sidebar {
+	/*border: 2px solid blue;*/
+	width: 100px;
+	height: 300px;
+	float : right;
+	margin-top: 50px;
+	padding: 10px;
+	text-align:center;	
+}
+
+#content {
+	/*border: 2px solid red;*/
+	width: 750px;
+	height:450px;
+	bottom: 400px;
+	left:0;
+	position:absolute;
+	padding: 5px;	
+}
+
+#content iframe {
+position:absolute;
+left:100px;
+top:150px;
+}
+
+#footer {
+	/*border: 2px solid white;*/
+	margin: 500px 0 auto;
+	font-size: 10px;
+	padding: 2px;
+	text-align:center;
+	
+}
+#page2 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 2px solid green;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 0 auto;
+	position:relative;
+	background-color: #f2edcb;
+}
+#chalet, 
+#danish,
+#debutante,
+#holiday,
+#meteor,
+#pedestal,
+#princess {
+	border: 1px solid black;
+	width: 500px;
+	font-size:12px;
+	margin: 40px 10px 30px 30px;
+	padding: 10px;	
+}
+#page3{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 2px solid green;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 0 auto;
+	position:relative;
+	background-color: #f2edcb;
+}
+input:focus, texarea:focus{
+	border: 1px solid;
+	border-color: #666 #ccc #ccc #666;
+	font: 1em Arial, Helvetica, sans-serif;
+	background: #eee;
+}
+fieldset{
+	border: 1px solid #AAA;
+	margin: 1em 0;
+}
+#page4{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border: 2px solid green;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 0 auto;
+	position:relative;
+	background-color: #f2edcb;
+}
+#page5{
+	
+}
+	
